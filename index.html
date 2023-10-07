@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>⭐⭐Error detection and correction⭐⭐</h1>
+    <div class="conatiner1"><p> <b >Error: </b> noise can introduce error in the binary bits.<br> It means '0' may change to '1' OR '1' change to '0' </p>
+    <h3>Types of Error</h3>
+    
+        <li>Single Bit error</li>
+        <li>Burst Error</li>
+    <div>
+        <h3>single Bit error</h3>
+        <p>In this only 1 bit in the data unit has changed</p>
+    </div>
+    <div>
+        <h3>Burst error</h3>
+        <p>In this 2 or more bit in the data unit changes</p>
+    </div>
+</div>
+    <h2>
+    Error Dectection method
+    </h2>
+    <div class="conatiner2">
+  <div>
+        <h3>1. Parity checking</h3>
+        <p>In this one extra bit (parity bit ) is addesd to each word before transmitting</p>
+        <li>Even parity</li>
+        <li>Odd parity</li>
+        <div>
+            <h4>Even parity</h4>
+            <ul>
+                <li>No. of 1's in the given data including parity bit should be even</li>
+                <li>At receiving end if no. of 1's is odd : means there is error</li>
+                <li>else there is no error</li>
+            </ul>
+            <h4>Odd parity</h4>
+            <ul>
+                <li>No. of 1's in the given data including parity bit should be odd</li>
+                <li>At receiving end if no. of 1's is even: means there is error</li>
+                <li>else there is no error</li>
+            </ul>
+            <h4>Limitations</h4>
+            <ul>
+                <li>Not suitable for detection of multiple error</li>
+                <li>Can not reveal the location of error</li>
+                <li>Cannot correct the error</li>
+                <li>It only detects error  </li>
+            </ul>
+        </div>
+    </li>
+</div>
+</div>
+  <div class="container">
+    <h4>Check Your Data here</h4>
+   <div><input type="text" id="sent" placeholder="Enter sent data"></div> 
+   <div><input type="text" id="received" placeholder="Enter received data"></div>
+    <h5>Choose your parity</h5>
+<div><button id="even">Even Parity</button></div>
+    <div> <button id="odd">Odd Parity</button></div>
+    <h2 id="result"></h2>
+</div>
+   <div class="cont">
+    <h1>❤️❤️Thanku so much❤️❤️</h1>
+   </div>
+    <script src="index.js"></script>
+</body>
+</html>

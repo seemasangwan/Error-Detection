@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe0e0;
+    color: #333;
+    margin:50px;
+    padding: 0;
+   text-align: justify;
+}
+#sent
+{
+margin:10px;
+padding: 10px;
+}
+#received
+{
+margin:10px;
+padding: 10px;
+}
+#even
+{
+    margin: 10px;
+    padding: 10px;
+}
+#odd
+{
+    margin: 10px;
+    padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.conatiner1
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d8ede7;
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.conatiner2
+{
+    max-width: 800px;
+    margin:  5 auto;
+    padding: 20px;
+    background-color: #eff3e8;
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cont
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cfe6ef;
+    border: 5px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
